@@ -1,0 +1,31 @@
+[2023-07-06 14:12:20.364][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/work/project/WebCamComponent/lib/HV_lib/zlib1.dll], hHandleRet[1435893760]
+[2023-07-06 14:12:20.364][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2023-07-06 14:12:20.364][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2023-07-06 14:12:20.364][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-07-06 14:12:20.502][INF] Login dev 192.168.1.64:8000.
+[2023-07-06 14:12:20.502][INF] dwTotalNum[2048]
+[2023-07-06 14:12:20.503][INF] Private connect 192.168.1.64:8000 sock=2020 this=0x895b9824 cmd=0x10000 port=50241
+[2023-07-06 14:12:20.503][INF] LogonDev1 in[192.168.1.64:8000]
+[2023-07-06 14:12:20.505][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/work/project/WebCamComponent/lib/HV_lib/libcrypto-1_1-x64.dll], hHandleRet[1279983616]
+[2023-07-06 14:12:20.505][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[D:\work\project\WebCamComponent\lib\HV_lib\libcrypto-1_1-x64.dll]
+[2023-07-06 14:12:20.506][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/work/project/WebCamComponent/lib/HV_lib/libssl-1_1-x64.dll], hHandleRet[1877409792]
+[2023-07-06 14:12:20.506][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[D:\work\project\WebCamComponent\lib\HV_lib\libssl-1_1-x64.dll]
+[2023-07-06 14:12:20.506][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2023-07-06 14:12:20.506][INF] OpenSSL, Not All Function Loaded!
+[2023-07-06 14:12:20.506][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2023-07-06 14:12:20.506][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2023-07-06 14:12:20.509][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[D:/work/project/WebCamComponent/lib/HV_lib/cert/\]
+[2023-07-06 14:12:21.873][DBG] CComBase::Load, Load szDllPath[D:/work/project/WebCamComponent/lib/HV_lib/HCNetSDKCom/HCPreview.dll] SUCC
+[2023-07-06 14:12:21.873][INF] AbilityAnalyze---Init-- start
+[2023-07-06 14:12:21.895][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2023-07-06 14:12:21.895][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[0], cTempPath[D:/work/project/WebCamComponent/lib/HV_lib/]
+[2023-07-06 14:12:21.895][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-1958084608], enumDllType[0], Path[PlayCtrl.dll], syserror[127]
+[2023-07-06 14:12:23.232][DBG] ID-IP-CHAN[0-192.168.1.64-0] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.4.0.40]
+[2023-07-06 14:12:23.233][INF] Private connect 192.168.1.64:8000 sock=2352 this=0x895b9824 cmd=0x30000 port=50247
+[2023-07-06 14:12:23.237][ERR] ID-IP-CHAN[0-192.168.1.64-0] [CGetTCPStream::LinkToDvr] struOut.dwDevState[15] dwErrCode[0xffffffff] dwMErrDevSelfEx[0xffffffff] CommandThread callback exception
+[2023-07-06 14:12:23.237][ERR] ID-IP-CHAN[0-192.168.1.64-0] [CPreviewSession::AllResourceStarWork] StreamGetterStartWork Failed, UserID[0]
+[2023-07-06 14:12:23.237][DBG] ID-IP-CHAN[0-192.168.1.64-0] [CPreviewSession::AllResourceStarWorkThread] EXCEPTION_PREVIEW trigger, AllResourceStarWork Failed, UserID[0] dwError[18]
+[2023-07-06 14:12:39.273][INF] COM_Logout[0][0]
+[2023-07-06 14:12:39.274][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2023-07-06 14:12:39.276][INF] Private connect 192.168.1.64:8000 sock=2036 this=0x895b9824 cmd=0x10100 port=50256
+[2023-07-06 14:12:39.288][INF] CTransUnitMgr::UnloadTransUnitLib
